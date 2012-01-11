@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		BFD7A06B14BE396F000C74BE /* menuBG.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD7A06A14BE396F000C74BE /* menuBG.png */; };
+		E906B14214BE4B2900F4B0AC /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E906B14014BE4B2900F4B0AC /* GameViewController.m */; };
+		E906B14314BE4B2900F4B0AC /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E906B14114BE4B2900F4B0AC /* GameViewController.xib */; };
+		E92D0F3014BE4AE300797FE9 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E92D0F2E14BE4AE300797FE9 /* MenuViewController.m */; };
+		E92D0F3114BE4AE300797FE9 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E92D0F2F14BE4AE300797FE9 /* MenuViewController.xib */; };
 		E9913D8A14BE34860026144C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9913D8914BE34860026144C /* UIKit.framework */; };
 		E9913D8C14BE34860026144C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9913D8B14BE34860026144C /* Foundation.framework */; };
 		E9913D8E14BE34860026144C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9913D8D14BE34860026144C /* CoreGraphics.framework */; };
@@ -20,6 +24,12 @@
 
 /* Begin PBXFileReference section */
 		BFD7A06A14BE396F000C74BE /* menuBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuBG.png; sourceTree = "<group>"; };
+		E906B13F14BE4B2900F4B0AC /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameViewController.h; path = ../GameViewController.h; sourceTree = "<group>"; };
+		E906B14014BE4B2900F4B0AC /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameViewController.m; path = ../GameViewController.m; sourceTree = "<group>"; };
+		E906B14114BE4B2900F4B0AC /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GameViewController.xib; path = ../GameViewController.xib; sourceTree = "<group>"; };
+		E92D0F2D14BE4AE300797FE9 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = ../MenuViewController.h; sourceTree = "<group>"; };
+		E92D0F2E14BE4AE300797FE9 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = ../MenuViewController.m; sourceTree = "<group>"; };
+		E92D0F2F14BE4AE300797FE9 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MenuViewController.xib; path = ../MenuViewController.xib; sourceTree = "<group>"; };
 		E9913D8514BE34860026144C /* Volcanic Panic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Volcanic Panic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9913D8914BE34860026144C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E9913D8B14BE34860026144C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,6 +70,8 @@
 		BFD7A06C14BE3A6E000C74BE /* Nibs */ = {
 			isa = PBXGroup;
 			children = (
+				E906B14114BE4B2900F4B0AC /* GameViewController.xib */,
+				E92D0F2F14BE4AE300797FE9 /* MenuViewController.xib */,
 				E9913D9E14BE34870026144C /* ViewController.xib */,
 			);
 			name = Nibs;
@@ -99,6 +111,10 @@
 				BFD7A06814BE3928000C74BE /* Resources */,
 				E9913D9814BE34870026144C /* AppDelegate.h */,
 				E9913D9914BE34870026144C /* AppDelegate.m */,
+				E906B13F14BE4B2900F4B0AC /* GameViewController.h */,
+				E906B14014BE4B2900F4B0AC /* GameViewController.m */,
+				E92D0F2D14BE4AE300797FE9 /* MenuViewController.h */,
+				E92D0F2E14BE4AE300797FE9 /* MenuViewController.m */,
 				E9913D9B14BE34870026144C /* ViewController.h */,
 				E9913D9C14BE34870026144C /* ViewController.m */,
 				E9913D9014BE34860026144C /* Supporting Files */,
@@ -170,6 +186,8 @@
 				E9913D9414BE34870026144C /* InfoPlist.strings in Resources */,
 				E9913DA014BE34870026144C /* ViewController.xib in Resources */,
 				BFD7A06B14BE396F000C74BE /* menuBG.png in Resources */,
+				E92D0F3114BE4AE300797FE9 /* MenuViewController.xib in Resources */,
+				E906B14314BE4B2900F4B0AC /* GameViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +201,8 @@
 				E9913D9614BE34870026144C /* main.m in Sources */,
 				E9913D9A14BE34870026144C /* AppDelegate.m in Sources */,
 				E9913D9D14BE34870026144C /* ViewController.m in Sources */,
+				E92D0F3014BE4AE300797FE9 /* MenuViewController.m in Sources */,
+				E906B14214BE4B2900F4B0AC /* GameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

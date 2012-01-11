@@ -8,12 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+#import "MenuViewController.h"
+#import "GameViewController.h"
+
 @interface ViewController : UIViewController {
-    UIView *menuView;
-    UIView *gameView;
+    MenuViewController *menuViewController;
+    GameViewController *gameViewController;
 }
 
-@property (strong, nonatomic) IBOutlet UIView *menuView;
-@property (strong, nonatomic) IBOutlet UIView *gameView;
+@property (nonatomic, retain) MenuViewController *menuViewController;
+@property (nonatomic, retain) GameViewController *gameViewController;
 
 @end

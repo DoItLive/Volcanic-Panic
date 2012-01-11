@@ -10,7 +10,7 @@
 
 @implementation ViewController
 
-@synthesize menuView,gameView;
+@synthesize menuViewController, gameViewController;
 
 - (void)didReceiveMemoryWarning
 {
@@ -24,7 +24,8 @@
 {
     [super viewDidLoad];
     
-    self.view = menuView;
+    menuViewController = [[MenuViewController alloc] initWithNibName:@"MenuViewController" bundle:nil];
+    self.view = menuViewController.view;
 }
 
 - (void)viewDidUnload
