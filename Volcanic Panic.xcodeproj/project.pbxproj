@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9913D8A14BE34860026144C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9913D8914BE34860026144C /* UIKit.framework */; };
+		E9913D8C14BE34860026144C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9913D8B14BE34860026144C /* Foundation.framework */; };
+		E9913D8E14BE34860026144C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9913D8D14BE34860026144C /* CoreGraphics.framework */; };
+		E9913D9414BE34870026144C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9913D9214BE34870026144C /* InfoPlist.strings */; };
+		E9913D9614BE34870026144C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9913D9514BE34870026144C /* main.m */; };
+		E9913D9A14BE34870026144C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9913D9914BE34870026144C /* AppDelegate.m */; };
+		E9913D9D14BE34870026144C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9913D9C14BE34870026144C /* ViewController.m */; };
+		E9913DA014BE34870026144C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9913D9E14BE34870026144C /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E9913D8514BE34860026144C /* Volcanic Panic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Volcanic Panic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9913D8914BE34860026144C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E9913D8B14BE34860026144C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9913D8D14BE34860026144C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E9913D9114BE34870026144C /* Volcanic Panic-Info.plist */ = {isa = PBXFileReference; path = "Volcanic Panic-Info.plist"; sourceTree = "<group>"; };
+		E9913D9314BE34870026144C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9913D9514BE34870026144C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9913D9714BE34870026144C /* Volcanic Panic-Prefix.pch */ = {isa = PBXFileReference; path = "Volcanic Panic-Prefix.pch"; sourceTree = "<group>"; };
+		E9913D9814BE34870026144C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9913D9914BE34870026144C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9913D9B14BE34870026144C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E9913D9C14BE34870026144C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E9913D9F14BE34870026144C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9913D8214BE34860026144C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9913D8A14BE34860026144C /* UIKit.framework in Frameworks */,
+				E9913D8C14BE34860026144C /* Foundation.framework in Frameworks */,
+				E9913D8E14BE34860026144C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9913D7A14BE34860026144C = {
+			isa = PBXGroup;
+			children = (
+				E9913D8F14BE34860026144C /* Volcanic Panic */,
+				E9913D8814BE34860026144C /* Frameworks */,
+				E9913D8614BE34860026144C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9913D8614BE34860026144C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9913D8514BE34860026144C /* Volcanic Panic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9913D8814BE34860026144C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9913D8914BE34860026144C /* UIKit.framework */,
+				E9913D8B14BE34860026144C /* Foundation.framework */,
+				E9913D8D14BE34860026144C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9913D8F14BE34860026144C /* Volcanic Panic */ = {
+			isa = PBXGroup;
+			children = (
+				E9913D9814BE34870026144C /* AppDelegate.h */,
+				E9913D9914BE34870026144C /* AppDelegate.m */,
+				E9913D9B14BE34870026144C /* ViewController.h */,
+				E9913D9C14BE34870026144C /* ViewController.m */,
+				E9913D9E14BE34870026144C /* ViewController.xib */,
+				E9913D9014BE34860026144C /* Supporting Files */,
+			);
+			path = "Volcanic Panic";
+			sourceTree = "<group>";
+		};
+		E9913D9014BE34860026144C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9913D9114BE34870026144C /* Volcanic Panic-Info.plist */,
+				E9913D9214BE34870026144C /* InfoPlist.strings */,
+				E9913D9514BE34870026144C /* main.m */,
+				E9913D9714BE34870026144C /* Volcanic Panic-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9913D8414BE34860026144C /* Volcanic Panic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9913DA314BE34870026144C /* Build configuration list for PBXNativeTarget "Volcanic Panic" */;
+			buildPhases = (
+				E9913D8114BE34860026144C /* Sources */,
+				E9913D8214BE34860026144C /* Frameworks */,
+				E9913D8314BE34860026144C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Volcanic Panic";
+			productName = "Volcanic Panic";
+			productReference = E9913D8514BE34860026144C /* Volcanic Panic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9913D7C14BE34860026144C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E9913D7F14BE34860026144C /* Build configuration list for PBXProject "Volcanic Panic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9913D7A14BE34860026144C;
+			productRefGroup = E9913D8614BE34860026144C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9913D8414BE34860026144C /* Volcanic Panic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9913D8314BE34860026144C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9913D9414BE34870026144C /* InfoPlist.strings in Resources */,
+				E9913DA014BE34870026144C /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9913D8114BE34860026144C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9913D9614BE34870026144C /* main.m in Sources */,
+				E9913D9A14BE34870026144C /* AppDelegate.m in Sources */,
+				E9913D9D14BE34870026144C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9913D9214BE34870026144C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9913D9314BE34870026144C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9913D9E14BE34870026144C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9913D9F14BE34870026144C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9913DA114BE34870026144C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9913DA214BE34870026144C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9913DA414BE34870026144C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Volcanic Panic/Volcanic Panic-Prefix.pch";
+				INFOPLIST_FILE = "Volcanic Panic/Volcanic Panic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9913DA514BE34870026144C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Volcanic Panic/Volcanic Panic-Prefix.pch";
+				INFOPLIST_FILE = "Volcanic Panic/Volcanic Panic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9913D7F14BE34860026144C /* Build configuration list for PBXProject "Volcanic Panic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9913DA114BE34870026144C /* Debug */,
+				E9913DA214BE34870026144C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9913DA314BE34870026144C /* Build configuration list for PBXNativeTarget "Volcanic Panic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9913DA414BE34870026144C /* Debug */,
+				E9913DA514BE34870026144C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9913D7C14BE34860026144C /* Project object */;
+}
