@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    UIView *menuView;
+    UIView *gameView;
+}
+
+@property (strong, nonatomic) IBOutlet UIView *menuView;
+@property (strong, nonatomic) IBOutlet UIView *gameView;
 
 @end

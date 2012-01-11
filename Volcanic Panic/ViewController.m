@@ -10,6 +10,8 @@
 
 @implementation ViewController
 
+@synthesize menuView,gameView;
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -22,8 +24,7 @@
 {
     [super viewDidLoad];
     
-    
-
+    self.view = menuView;
 }
 
 - (void)viewDidUnload
