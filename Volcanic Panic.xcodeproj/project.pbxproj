@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFD7A06B14BE396F000C74BE /* menuBG.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD7A06A14BE396F000C74BE /* menuBG.png */; };
 		E9913D8A14BE34860026144C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9913D8914BE34860026144C /* UIKit.framework */; };
 		E9913D8C14BE34860026144C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9913D8B14BE34860026144C /* Foundation.framework */; };
 		E9913D8E14BE34860026144C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9913D8D14BE34860026144C /* CoreGraphics.framework */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BFD7A06A14BE396F000C74BE /* menuBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuBG.png; sourceTree = "<group>"; };
 		E9913D8514BE34860026144C /* Volcanic Panic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Volcanic Panic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9913D8914BE34860026144C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E9913D8B14BE34860026144C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,6 +49,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BFD7A06814BE3928000C74BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BFD7A06A14BE396F000C74BE /* menuBG.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BFD7A06C14BE3A6E000C74BE /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				E9913D9E14BE34870026144C /* ViewController.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
 		E9913D7A14BE34860026144C = {
 			isa = PBXGroup;
 			children = (
@@ -77,11 +95,12 @@
 		E9913D8F14BE34860026144C /* Volcanic Panic */ = {
 			isa = PBXGroup;
 			children = (
+				BFD7A06C14BE3A6E000C74BE /* Nibs */,
+				BFD7A06814BE3928000C74BE /* Resources */,
 				E9913D9814BE34870026144C /* AppDelegate.h */,
 				E9913D9914BE34870026144C /* AppDelegate.m */,
 				E9913D9B14BE34870026144C /* ViewController.h */,
 				E9913D9C14BE34870026144C /* ViewController.m */,
-				E9913D9E14BE34870026144C /* ViewController.xib */,
 				E9913D9014BE34860026144C /* Supporting Files */,
 			);
 			path = "Volcanic Panic";
@@ -150,6 +169,7 @@
 			files = (
 				E9913D9414BE34870026144C /* InfoPlist.strings in Resources */,
 				E9913DA014BE34870026144C /* ViewController.xib in Resources */,
+				BFD7A06B14BE396F000C74BE /* menuBG.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +294,7 @@
 				E9913DA514BE34870026144C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
