@@ -8,16 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-#import "MenuViewController.h"
 #import "GameViewController.h"
 
 @interface ViewController : UIViewController {
-    MenuViewController *menuViewController;
     GameViewController *gameViewController;
+    
+    UIButton *playButton;
 }
 
-@property (nonatomic, retain) MenuViewController *menuViewController;
 @property (nonatomic, retain) GameViewController *gameViewController;
+@property (nonatomic, retain) IBOutlet UIButton *playButton;
 
+-(IBAction) playButtonTouchUpInside:(id)sender;
 
 @end

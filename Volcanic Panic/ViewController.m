@@ -10,7 +10,7 @@
 
 @implementation ViewController
 
-@synthesize menuViewController, gameViewController;
+@synthesize gameViewController, playButton;
 
 - (void)didReceiveMemoryWarning
 {
@@ -24,8 +24,6 @@
 {
     [super viewDidLoad];
     
-    menuViewController = [[MenuViewController alloc] initWithNibName:@"MenuViewController" bundle:nil];
-    self.view = menuViewController.view;
 }
 
 - (void)viewDidUnload
@@ -61,5 +59,9 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)playButtonTouchUpInside:(id)sender{
+    gameViewController = [[GameViewController alloc] initWithNibName:@"GameViewController" bundle:nil];
+    [[self navigationController] pushViewController:gameViewController animated:NO];
+}
 
 @end
