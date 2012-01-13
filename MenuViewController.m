@@ -10,7 +10,7 @@
 
 @implementation MenuViewController
 
-@synthesize mainMenuView;
+@synthesize mainMenuView,playButton;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -48,6 +48,10 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+- (IBAction)playButtonTouchUpInside:(id)sender{
+    
 }
 
 @end

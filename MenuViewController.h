@@ -10,8 +10,14 @@
 
 @interface MenuViewController : UIViewController {
     UIView *mainMenuView;
+    UIButton *playButton;
+    
 }
 
 @property (nonatomic, retain) IBOutlet UIView *mainMenuView;
+@property (nonatomic, retain) IBOutlet UIButton *playButton;
+
+-(IBAction) playButtonTouchUpInside:(id)sender;
+
 
 @end
