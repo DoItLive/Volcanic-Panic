@@ -164,6 +164,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = DoItLive;
 			};
 			buildConfigurationList = E9913D7F14BE34860026144C /* Build configuration list for PBXProject "Volcanic Panic" */;
 			compatibilityVersion = "Xcode 3.2";

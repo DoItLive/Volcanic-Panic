@@ -12,20 +12,14 @@
 @interface Sprite : NSObject {
     CGFloat x;
     CGFloat y;
-    CGFloat r;
-    CGFloat g;
-    CGFloat b;
     CGFloat alpha;
     CGFloat speed;
-    CGFloat angle;
     CGFloat rotation;
     CGFloat width;
     CGFloat height;
     CGFloat scale;
     int frame;
     
-    CGFloat cosTheta;
-    CGFloat sinTheta;
     CGRect box;
     
     BOOL render;
@@ -34,8 +28,8 @@
 }
 
 @property (assign) BOOL wrap, render, offScreen;
-@property (assign) CGFloat x, y, r, g, b, alpha;
-@property (assign) CGFloat speed, angle, rotation;
+@property (assign) CGFloat x, y, alpha;
+@property (assign) CGFloat speed, rotation;
 @property (assign) CGFloat width, height, scale;
 @property (assign) CGRect box;
 @property (assign) int frame;
