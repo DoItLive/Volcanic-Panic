@@ -12,6 +12,8 @@
 		E906B14314BE4B2900F4B0AC /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E906B14114BE4B2900F4B0AC /* GameViewController.xib */; };
 		E941AA5914C11F9A00288718 /* AtlasSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = E941AA5814C11F9A00288718 /* AtlasSprite.m */; };
 		E941AA5C14C11FCB00288718 /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = E941AA5B14C11FCB00288718 /* Sprite.m */; };
+		E98E8C6714C7768A0009932F /* cookie bro.png in Resources */ = {isa = PBXBuildFile; fileRef = E98E8C6614C7768A0009932F /* cookie bro.png */; };
+		E98E8C6F14C776F10009932F /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E98E8C6E14C776F10009932F /* GameModel.m */; };
 		E9913D8A14BE34860026144C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9913D8914BE34860026144C /* UIKit.framework */; };
 		E9913D8C14BE34860026144C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9913D8B14BE34860026144C /* Foundation.framework */; };
 		E9913D8E14BE34860026144C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9913D8D14BE34860026144C /* CoreGraphics.framework */; };
@@ -32,6 +34,9 @@
 		E941AA5A14C11FCB00288718 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
 		E941AA5B14C11FCB00288718 /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
 		E941AA6114C1262100288718 /* Defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defs.h; sourceTree = "<group>"; };
+		E98E8C6614C7768A0009932F /* cookie bro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cookie bro.png"; sourceTree = "<group>"; };
+		E98E8C6D14C776F10009932F /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		E98E8C6E14C776F10009932F /* GameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
 		E9913D8514BE34860026144C /* Volcanic Panic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Volcanic Panic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9913D8914BE34860026144C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E9913D8B14BE34860026144C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,6 +69,7 @@
 		BFD7A06814BE3928000C74BE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E98E8C6614C7768A0009932F /* cookie bro.png */,
 				BFD7A06A14BE396F000C74BE /* menuBG.png */,
 			);
 			name = Resources;
@@ -117,6 +123,8 @@
 				E906B14014BE4B2900F4B0AC /* GameViewController.m */,
 				E941AA5A14C11FCB00288718 /* Sprite.h */,
 				E941AA5B14C11FCB00288718 /* Sprite.m */,
+				E98E8C6D14C776F10009932F /* GameModel.h */,
+				E98E8C6E14C776F10009932F /* GameModel.m */,
 				E9913D9B14BE34870026144C /* ViewController.h */,
 				E9913D9C14BE34870026144C /* ViewController.m */,
 				BFD7A06C14BE3A6E000C74BE /* Nibs */,
@@ -192,6 +200,7 @@
 				E9913DA014BE34870026144C /* ViewController.xib in Resources */,
 				BFD7A06B14BE396F000C74BE /* menuBG.png in Resources */,
 				E906B14314BE4B2900F4B0AC /* GameViewController.xib in Resources */,
+				E98E8C6714C7768A0009932F /* cookie bro.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +217,7 @@
 				E906B14214BE4B2900F4B0AC /* GameViewController.m in Sources */,
 				E941AA5914C11F9A00288718 /* AtlasSprite.m in Sources */,
 				E941AA5C14C11FCB00288718 /* Sprite.m in Sources */,
+				E98E8C6F14C776F10009932F /* GameModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
