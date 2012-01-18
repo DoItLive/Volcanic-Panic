@@ -10,12 +10,12 @@
 
 @implementation GameModel 
 
-@synthesize zombies,deadSprites,createdSprites,state,time;
+@synthesize cookieBro,deadSprites,createdSprites,state,time;
 
 - (id) init {
     self = [super init];
     if (self) {
-        zombies = [[NSMutableArray alloc] init];
+        cookieBro = [[NSMutableArray alloc] init];
         deadSprites = [[NSMutableArray alloc] init];
         createdSprites = [[NSMutableArray alloc] init];
         time = 0;
@@ -60,33 +60,19 @@
 }
 
 - (void) addObjects {
-    AtlasSprite *zom = [AtlasSprite fromFile:@"zombie.png" withRows:1 withColumns:1];
-    zom.x = 0;
-    zom.y = 160;
-    zom.speed = 60;
-    zom.rotation = 180;
-    zom.scale = 2.0;
-    zom.wrap = YES;
-    [zombies addObject:zom];
-    zom = [AtlasSprite fromFile:@"zombie.png" withRows:1 withColumns:1];
-    zom.x = 10;
-    zom.y = 240;
-    zom.speed = 60;
-    zom.rotation = 180;
-    zom.wrap = NO;
-    [zombies addObject:zom];
-    zom = [AtlasSprite fromFile:@"zombie.png" withRows:1 withColumns:1];
-    zom.x = 20;
-    zom.y = 80;
-    zom.speed = 60;
-    zom.rotation = 180;
-    zom.wrap = NO;
-    [zombies addObject:zom];
+    AtlasSprite *mon = [AtlasSprite fromFile:@"cookiebro.png" withRows:1 withColumns:1];
+    mon.x = 0;
+    mon.y = 160;
+    mon.speed = 60;
+    mon.rotation = 180;
+    mon.scale = 0.5;
+    mon.wrap = YES;
+    [createdSprites addObject:mon];
 }
 
 - (void) addNewSprites {
     if ([createdSprites count] > 0) {
-        [zombies addObjectsFromArray:createdSprites];
+        [cookieBro addObjectsFromArray:createdSprites];
         [createdSprites removeAllObjects];
     }
 }
@@ -97,7 +83,7 @@
 
 - (void) cleanUpArrays {
     if ([deadSprites count] > 0) {
-        [zombies removeObjectsInArray:deadSprites];
+        [cookieBro removeObjectsInArray:deadSprites];
         [deadSprites removeAllObjects];
     }
 }
@@ -105,7 +91,7 @@
 - (void) dumpArrays {
     ([createdSprites count] > 0)? NSLog(@"createdSprites: %d",[createdSprites count]): NSLog(@"Nothing in createdSprites array");
     ([deadSprites count] > 0)? NSLog(@"deadSprites: %d",[deadSprites count]): NSLog(@"Nothing in deadSprites array");
-    ([zombies count] > 0)? NSLog(@"zombies: %d",[zombies count]): NSLog(@"Nothing in zombies array");
+    ([cookieBro count] > 0)? NSLog(@"zombies: %d",[cookieBro count]): NSLog(@"Nothing in zombies array");
 }
 
 @end

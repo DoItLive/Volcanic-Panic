@@ -11,7 +11,7 @@
 #import "Defs.h"
 
 @interface GameModel : NSObject {
-    NSMutableArray *zombies;
+    NSMutableArray *cookieBro;
     NSMutableArray *deadSprites;
     NSMutableArray *createdSprites;
     
@@ -20,7 +20,7 @@
 }
 
 @property(nonatomic, retain) NSMutableDictionary *state;
-@property(nonatomic, retain) NSMutableArray *zombies;
+@property(nonatomic, retain) NSMutableArray *cookieBro;
 @property(nonatomic, retain) NSMutableArray *deadSprites;
 @property(nonatomic, retain) NSMutableArray *createdSprites;
 @property(assign) CGFloat time;
