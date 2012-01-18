@@ -89,4 +89,17 @@
     CGContextRestoreGState(context);
 }
 
+- (void) outlinePath:(CGContextRef)context {
+    CGFloat w2 = box.size.width*0.5;
+    CGFloat h2 = box.size.height*0.5;
+    
+    CGContextBeginPath(context);
+    CGContextMoveToPoint(context, -w2, h2);
+    CGContextAddLineToPoint(context, w2, h2);
+    CGContextAddLineToPoint(context, w2, -h2);
+    CGContextAddLineToPoint(context, -w2, -h2);
+    CGContextAddLineToPoint(context, -w2, h2);
+    CGContextClosePath(context);
+}
+
 @end

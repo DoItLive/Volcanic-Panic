@@ -35,8 +35,6 @@
 @property (assign) int frame;
 
 - (void) outlinePath: (CGContextRef) context;
-- (void) drawBody: (CGContextRef) context;
-- (void) draw: (CGContextRef) context;
 - (void) updateBox;
 - (void) drawBoundingBox: (CGContextRef) context;
 - (void) tic: (NSTimeInterval) dt;
